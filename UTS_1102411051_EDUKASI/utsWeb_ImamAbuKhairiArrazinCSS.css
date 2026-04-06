@@ -1,0 +1,370 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*judul*/
+
+header {
+  color: white;
+  height: 100px;
+  background-image: url("gambaruts/bghead.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+.headerteks {
+  display: flex;
+  flex-direction: column;
+}
+.headerteks h1 {
+  text-shadow: 0.5px 2px 3px rgb(0, 0, 3);
+  font-size: 40px;
+  font-family: fantasy;
+  margin-bottom: 5px;
+}
+.headerteks p {
+  text-shadow: 0.5px 1px 2px rgb(0, 0, 3);
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  margin-top: 0;
+}
+.logocomputer {
+  width: 125px;
+  border-radius: 40%;
+}
+
+/*Beranda*/
+
+.berandaatas {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 1.6;
+  max-width: 800px;
+}
+.berandaatas p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px;
+  background-color: white;
+}
+.isiberanda {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+  text-align: left;
+}
+.gambar2 img {
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 8px #8a2be2;
+}
+.teksberanda {
+  text-shadow: 1px 1px 2px;
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 1.6;
+  max-width: 655px;
+  color: black;
+}
+.berandabawah {
+  text-align: center;
+}
+.berandabawah p {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 10px rgb(0, 0, 3);
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+.berandabawah img {
+  box-shadow: 1px 1px 20px 8px #8a2be2;
+  align-items: center;
+  border-radius: 10px;
+}
+span {
+  color: #8a2be2;
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+.berandabawah hr {
+  border: none;
+  height: 100px;
+}
+
+/*navbar*/
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #8a2be2;
+  padding: 10px;
+  gap: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbar a {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  padding: 10px 20px;
+}
+.navbar a:hover {
+  background-color: #dfb3ed;
+  color: black;
+}
+
+/*Kontak*/
+
+.kontak {
+  justify-content: center;
+  display: flex;
+  min-height: 10px;
+}
+.judulkontak hr {
+  height: 100px;
+  border: none;
+}
+.judulkontak {
+  text-align: center;
+}
+.judulkontak h2 {
+  color: white;
+  background-color: #bf00ff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: inline-block;
+  box-shadow: 1px 1px 15px rgb(0, 0, 3);
+}
+.judulkontak h2:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 5px 15px 10px #8a2be2;
+}
+.kontak form:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 5px 15px 10px #8a2be2;
+}
+.kontak form {
+  text-align: center;
+  padding: 2rem 2rem;
+  width: 300px;
+  background-color: #bf00ff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 20px 6px rgba(0, 0, 0, 0.3);
+}
+.kontak input {
+  padding: 10px;
+  margin-top: 10px;
+  border: 0.5px solid;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 15rem;
+}
+.kontak textarea:hover,button:hover,input:hover{
+  transform: scale(1.03);
+  box-shadow: 1px 1px 15px 10px #994ddf;
+}
+.kontak textarea {
+  padding: 10px;
+  margin-top: 10px;
+  border: 0.5px solid;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 15rem;
+}
+.kontak button {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px 1rem;
+  border-radius: 10px;
+}
+
+/*Sidebar/Profile*/
+
+.sidebar {
+  align-items: center;
+  font-family: sans-serif;
+  justify-content: center;
+}
+.sidebar h2:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 1px 15px 10px #8a2be2;
+}
+.sidebar .sidebar2:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 1px 15px 10px #8a2be2;
+}
+.sidebar hr {
+  height: 100px;
+  border: none;
+}
+.sidebar2 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 1px 15px black;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin: 20px auto;
+  width: fit-content;
+}
+.judulprofil {
+  text-align: center;
+}
+.judulprofil h2 {
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 15px black;
+  display: inline-block;
+  border-radius: 10px;
+}
+.gambarsidebar img {
+  border-radius: 20px;
+}
+.teksprofil {
+  text-align: left;
+  line-height: 10px;
+}
+.teksprofil b {
+  text-align: left;
+  color: #8a2be2;
+}
+.teksprofil a {
+  text-decoration: none;
+}
+footer {
+  background-color: #8a2be2;
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/**edukasi**/
+
+.edukasi h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+.edukasi {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: center;
+}
+.edukasi article {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 10px rgb(0, 0, 3);
+}
+.edukasi h2 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px auto;
+  box-shadow: 2px 3px 10px rgb(0, 0, 3);
+}
+.edukasi img:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 20px 8px #8a2be2;
+}
+.edukasi img {
+  box-shadow: 2px 3px 10px rgb(0, 0, 3);
+  display: block;
+  margin: 20px auto;
+}
+.edukasi a {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 2px 3px 10px rgb(0, 0, 3);
+  text-decoration: none;
+}
+.edukasi a:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 1px 10px 6px #8a2be2;
+}
+hr {
+  height: 100px;
+  border: none;
+}
+
+/*Galeri*/
+
+.galeri h2 {
+  font-size: 35px;
+}
+.paragraf1 {
+  text-align: center;
+}
+.paragraf1 p {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 1px 1px 20px 8px #8a2be2;
+  max-width: 550px;
+}
+.isigaleri {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.isi p {
+  font-weight: bold;
+  color: black;
+}
+.isi a {
+  text-decoration: none;
+}
+.isi {
+  text-align: center;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgb(0, 0, 3);
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+.isi img {
+  border-radius: 20px;
+}
+.isigaleri .isi:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 20px 8px #8a2be2;
+}
